@@ -18,7 +18,7 @@
     "comment-empty-line-before": "always",
     "comment-no-empty": true,
     "comment-whitespace-inside": "always",
-    "custom-property-empty-line-before":"never",
+    "custom-property-empty-line-before": "never",
     "declaration-bang-space-after": "always",
     "declaration-bang-space-before": "always",
     "declaration-block-no-duplicate-properties": true,
@@ -86,9 +86,7 @@
     "rule-empty-line-before": [
       "always",
       {
-        "except": [
-          "after-single-line-comment"
-        ]
+        "except": ["after-single-line-comment"]
       }
     ],
     "selector-attribute-brackets-space-inside": "always",
