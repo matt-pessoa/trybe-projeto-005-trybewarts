@@ -27,7 +27,6 @@
         />
         <button id="login">Entrar</button>
       </form>
-
     </header>
     
     <main>
@@ -37,7 +36,8 @@
           <input id="input-lastname" type="text" placeholder="Sobrenome" />          
         </div>
 
-        <input id="input-email" type="email" placeholder="Email" />
+        <div>
+          <input id="input-email" type="email" placeholder="Email" />
         <span>Casa:</span>
           <select id="house">
             <option id="gitnoria-house" text="Gitnória" value="Gitnória">Gitnória</option>
@@ -45,6 +45,25 @@
             <option id="corvinode-house" text="Corvinode" value="Corvinode">Corvinode</option>
             <option id="pytherina-house" text="Pytherina" value="Pytherina">Pytherina</option>
           </select>
+
+          <section>
+            <div>
+              <label id="label-family">Qual sua família?</label><br />
+              <input
+                type="radio"
+                name="family"
+                value="Frontend"
+              />Frontend<br />
+              <input type="radio" name="family" value="Backend" />Backend<br />
+              <input
+                type="radio"
+                name="family"
+                value="FullStack"
+              />FullStack<br />
+            </div>
+          </section>
+        </div>
+        
       </form>
 
       <img id="trybewarts-forms-logo" src="images/trybewarts-colored.svg" alt="Logo Trybewarts">
