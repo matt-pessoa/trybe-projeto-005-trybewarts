@@ -18,7 +18,7 @@ buttonLogin();
 function buttonSubmit() {
   const submitButton = document.getElementById('submit-btn');
   const checkBox = document.getElementById('agreement');
-    //   https://www.horadecodar.com.br/2020/07/28/como-verificar-se-um-checkbox-esta-checado-c-javascript-ou-jquery/
+  // https://www.horadecodar.com.br/2020/07/28/como-verificar-se-um-checkbox-esta-checado-c-javascript-ou-jquery/
   checkBox.addEventListener('click', () => {
     if (checkBox.checked) {
       submitButton.disabled = false;
@@ -27,5 +27,5 @@ function buttonSubmit() {
     }
   });
 }
-  
-  buttonSubmit();
+
+buttonSubmit();
