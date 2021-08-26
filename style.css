@@ -9,6 +9,11 @@ body {
   align-items: center;
 }
 
+#trybewarts-header-logo {
+  height: 100px;
+  margin-left: 20px;
+}
+
 .trybewarts-login {
   display: flex;
   margin-right: 50px;
