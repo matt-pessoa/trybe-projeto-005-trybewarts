@@ -1,7 +1,12 @@
+body {
+  margin: 0 !important;
+}
+
 .header {
   display: flex;
   background-color: rgb(50, 167, 145);
   justify-content: space-between;
+  align-items: center;
 }
 
 .trybewarts-login {
@@ -11,6 +16,7 @@
 
 main {
   display: flex;
+  justify-content: space-around;
 }
 
 #evaluation-form {
@@ -25,4 +31,12 @@ main {
 
 .flex-row {
   display: flex;
+}
+
+footer {
+  display: flex;
+}
+
+.center {
+  justify-content: center;
 }
